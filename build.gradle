@@ -1,4 +1,4 @@
-group 'com.ifkaar'
+group 'com.autism'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
@@ -13,11 +13,6 @@ repositories {
     mavenCentral()
 }
 
-
-
-//application {
-//    mainClassName = 'com.ifkaar.rms.Solver'
-//}
 
 
 
