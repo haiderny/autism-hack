@@ -9,7 +9,7 @@ public class NotificationRepository implements INotificationRepository {
 
     private static final Logger Logger = LoggerFactory.getLogger(NotificationRepository.class);
 
-    
+
 
     public void toPushover(String message) {
 
@@ -21,8 +21,8 @@ public class NotificationRepository implements INotificationRepository {
                     .setMessage("testing!")
                     .build());
 
-// push a message with optional fields
-            Status result = client.pushMessage(PushoverMessage.builderWithApiToken("MY_APP_API_TOKEN")
+            // push a message with optional fields
+            final Status result = client.pushMessage(PushoverMessage.builderWithApiToken("MY_APP_API_TOKEN")
                     .setUserId("USER_ID_TOKEN")
                     .setMessage("testing!")
                     .setDevice("device")
