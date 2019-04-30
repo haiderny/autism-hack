@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.sps.pushover.net:pushover-client:1.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.sps.pushover.net/pushover-client/1.0.0/23e984c32a51a4e1d0b3bc171b9f765057201529/pushover-client-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.sps.pushover.net/pushover-client/1.0.0/f633f1bdf5f2bdca3ae0474c21c449c5e90a1dcd/pushover-client-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
