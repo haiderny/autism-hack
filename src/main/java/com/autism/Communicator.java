@@ -1,6 +1,5 @@
 package com.autism;
 
-import com.autism.notification.INotificationRepository;
 import com.autism.notification.INotificationservice;
 import com.autism.notification.NotificationService;
 import org.slf4j.Logger;

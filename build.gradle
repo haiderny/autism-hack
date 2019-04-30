@@ -11,11 +11,20 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
 
 
 
+application {
+    mainClassName = 'com.autism.Communicator'
+}
+
+project.ext.mainClassName = "com.autism.Communicator"
+mainClassName = project.ext.mainClassName
 
 
 dependencies {
