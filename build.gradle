@@ -1,0 +1,32 @@
+group 'com.ifkaar'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+
+
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+
+
+//application {
+//    mainClassName = 'com.ifkaar.rms.Solver'
+//}
+
+
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.21'
+    compile group: 'org.slf4j', name: 'jcl-over-slf4j', version: '1.7.21'
+    compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.1.7'
+    compile group: 'ch.qos.logback', name: 'logback-core', version: '1.1.7'
+    compile group: 'ch.qos.logback', name: 'logback-access', version: '1.1.7'
+    compile "org.codehaus.groovy:groovy:1.8.9"
+}
