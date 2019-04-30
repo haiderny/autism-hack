@@ -6,9 +6,6 @@ apply plugin: 'application'
 
 
 
-
-sourceCompatibility = 1.8
-
 repositories {
     mavenCentral()
     jcenter()
@@ -23,9 +20,12 @@ application {
     mainClassName = 'com.autism.Communicator'
 }
 
-project.ext.mainClassName = "com.autism.Communicator"
-mainClassName = project.ext.mainClassName
+//project.ext.mainClassName = "com.autism.Communicator"
+//mainClassName = project.ext.mainClassName
 
+applicationName = 'autism-hack'
+
+applicationDefaultJvmArgs = ["-Xms512m", "-Xmx1024m"]
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
