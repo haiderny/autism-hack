@@ -1,9 +1,12 @@
+
+plugins {
+    id 'java'
+    id 'application'
+    id 'distribution'
+}
+
 group 'com.autism'
 version '1.0-SNAPSHOT'
-
-apply plugin: 'java'
-apply plugin: 'application'
-
 
 
 repositories {
@@ -16,12 +19,11 @@ targetCompatibility = '1.8'
 
 
 
+
 application {
     mainClassName = 'com.autism.Communicator'
 }
 
-//project.ext.mainClassName = "com.autism.Communicator"
-//mainClassName = project.ext.mainClassName
 
 applicationName = 'autism-hack'
 
